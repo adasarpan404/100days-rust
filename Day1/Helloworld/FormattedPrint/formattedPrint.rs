@@ -50,8 +50,17 @@ fn main() {
     // this how can pad 0's in front of 1
     println!("{number:0>5}", number = 1);
 
-    // you can use named arguments for specifying width
+    // this can use named arguments for specifying width
     println!("{number:0>width$}", number = 1, width = 5);
     println!("{number:0<width$}", number = 1, width = 5);
-    
+
+    // Rusts even checks correct number of arguments being used
+    // println!("My name is {0}, {1} {0}", "Bond");  this will throw error
+
+    // For Rust 1.58 and above, you can directly capture the argument from a
+    // surrounding variable. Just like the above, this will output
+    // "     1". 5 white spaces and a "1".
+    let number: f64 = 1.0;
+    let width: usize = 5;
+    println!("{number:>width$}");
 }
