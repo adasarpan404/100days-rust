@@ -36,5 +36,9 @@ fn main(){
     // output "    1". (Four white spaces and a "1", for a total width of 5.)
     println!("{number:>5}", number=1);
 
-    
+    // this how can pad 0's and any number after print
+    println!("{number:0<5}", number=1);
+
+    // this how can pad 0's in front of 1
+    println!("{number:0>5}", number=1);
 }
