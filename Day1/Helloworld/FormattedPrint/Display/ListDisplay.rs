@@ -29,18 +29,48 @@ struct List(Vec<i32>);
 //     }
 // }
 
+
+// noobs approach
+// impl fmt::Display for List {
+//     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+//         let vec = &self.0;
+//         write!(f, "[")?;
+//         for (count, v) in vec.iter().enumerate() {
+//             if count != 0 {
+//                 write!(f, ", ")?;
+//             }
+//             write!(f, "{}: ", count)?;
+//             write!(f, "{}", v)?;
+//         }
+//         write!(f, "]")
+//     }
+// }
+
+// other methods
+// impl fmt::Display for List {
+//     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+//         let vec = &self.0;
+//         let mut output = String::new();
+//         for (count, v) in vec.iter().enumerate() {
+//             if count != 0 {
+//                 output.push_str(", ");
+//             }
+//             output.push_str(&format!("{}: {}", count, v));
+//         }
+//         write!(f, "[{}]", output)
+//     }
+// }
+
 impl fmt::Display for List {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
         let vec = &self.0;
-        write!(f, "[")?;
-        for (count, v) in vec.iter().enumerate() {
-            if count != 0 {
-                write!(f, ", ")?;
-            }
-            write!(f, "{}: ", count)?;
-            write!(f, "{}", v)?;
-        }
-        write!(f, "]")
+        let output: String = vec
+            .iter()
+            .enumerate()
+            .map(|(count, v)| format!("{}: {}", count, v))
+            .collect::<Vec<_>>()
+            .join(", ");
+        write!(f, "[{}]", output)
     }
 }
 
