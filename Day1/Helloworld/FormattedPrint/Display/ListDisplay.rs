@@ -29,7 +29,6 @@ struct List(Vec<i32>);
 //     }
 // }
 
-
 // noobs approach
 // impl fmt::Display for List {
 //     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
