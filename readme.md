@@ -1,3 +1,4 @@
+
 # 100 days of RUST
 
 This repository consists of basic programs and basic project built during 100 days of rust. 
@@ -14,3 +15,6 @@ This repository consists of basic programs and basic project built during 100 da
     4. Literals
 
     5. Tuples
+
+### Day 2
+    1. Structures
