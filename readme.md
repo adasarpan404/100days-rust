@@ -18,3 +18,7 @@ This repository consists of basic programs and basic project built during 100 da
 
 ### Day 2
     1. Structures
+
+### Day 3
+    1. Enums
+    
