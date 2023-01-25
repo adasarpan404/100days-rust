@@ -34,4 +34,5 @@ fn main() {
         Civilian => println!("Civilians work!"),
         Soldier  => println!("Soldiers fight!"),
     }
+
 }
