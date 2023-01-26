@@ -21,4 +21,12 @@ This repository consists of basic programs and basic project built during 100 da
 
 ### Day 3
     1. Enums
+
+### Day 4
+    1. Usage of Enums
+
+    2. consts
+
+### Day 5
+    1. variable bindings
     
