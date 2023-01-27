@@ -31,4 +31,8 @@ This repository consists of basic programs and basic project built during 100 da
     1. variable bindings
 
     2. Types
+
+### Day 6
+    1. conversion
+    
     
