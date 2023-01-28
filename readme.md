@@ -37,3 +37,8 @@ This repository consists of basic programs and basic project built during 100 da
     
 ### Day 7
     1. conversion (TryFrom, TryInto, fromString, toString)
+
+    2. expression
+
+    3. Flow of control (if-else, loop, nesting, returningloop)
+
