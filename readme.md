@@ -36,4 +36,4 @@ This repository consists of basic programs and basic project built during 100 da
     1. conversion
     
 ### Day 7
-    1. conversion (TryFrom and TryInto)
+    1. conversion (TryFrom, TryInto, fromString, toString)
