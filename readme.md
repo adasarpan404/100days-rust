@@ -45,3 +45,5 @@ This repository consists of basic programs and basic project built during 100 da
 ### Day 8
     1. Flow of control (while, for-range, match, if-let, while-let)
 
+    2. functions (intro, methods)
+
