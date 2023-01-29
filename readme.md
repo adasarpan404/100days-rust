@@ -42,3 +42,6 @@ This repository consists of basic programs and basic project built during 100 da
 
     3. Flow of control (if-else, loop, nesting, returningloop)
 
+### Day 8
+    1. Flow of control (while, for-range, match)
+
