@@ -52,3 +52,6 @@ This repository consists of basic programs and basic project built during 100 da
 
 ### Day 10 
     1. Basic Programs (kadane, pascals, swapwith, swapwithout)
+
+### Day 11
+    1. Sorting (Selection Sort)
